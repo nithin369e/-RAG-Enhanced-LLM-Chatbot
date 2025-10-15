@@ -80,7 +80,8 @@ Clear chat
 
 Clear knowledge base (ChromaDB)
 
-Project Structure
+**Project Structure**
+
 rag-chatbot/
 │
 ├── app.py                  # Main Streamlit application
