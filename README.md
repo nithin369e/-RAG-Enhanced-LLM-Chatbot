@@ -81,11 +81,24 @@ Clear chat
 Clear knowledge base (ChromaDB)
 
 Project Structure
-project-folder
+rag-chatbot/
 │
 ├── app.py                  # Main Streamlit application
-├── chroma_db/              # Persistent vector database (auto-created)
-└── README.md               # This file
+├── requirements.txt        # Python dependencies
+├── README.md              # Documentation (you are here)
+├── .gitignore             # Git ignore rules
+│
+├── setup.bat              # Windows setup script
+├── setup.sh               # Mac/Linux setup script
+├── start.bat              # Windows start script
+├── start.sh               # Mac/Linux start script
+│
+├── venv/                  # Virtual environment (excluded from git)
+├── chroma_db/             # Vector database storage (excluded from git)
+│   ├── chroma.sqlite3     # SQLite database
+│   └── ...                # Embedding data
+│
+└── __pycache__/           # Python cache (excluded from git)
 
 **Notes**
 
